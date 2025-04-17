@@ -17,7 +17,22 @@ body{
 
 }
 
-.selections{
-    display: flex;
-    justify-content: space-between;
+.info{
+    font-size: 18px;
+}
+
+.tab1, .tab2, .tab3{
+    display: inline-block;
+    border: 2px solid grey;
+    margin: 5px;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+
+.description{
+    padding: 8px;
+    text-align: center;
+    color: black;
 }
