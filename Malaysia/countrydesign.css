@@ -1,5 +1,17 @@
 body{
-    background-color: lime;
+    background-image: url(background2.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    padding: 50px;
+}
+
+h2, h1{
+    color:white;
+}
+
+p{
+    color: white;
+    font-size: 20px;
 }
 
 .capital{
@@ -11,24 +23,14 @@ body{
     margin-right: auto;
 }
 
-.titlecap{
-    font-size: 20px;
+.titlecap, #title_cap{
+    font-size: 30px;
     text-align: center;
 
 }
 
-.info{
-    font-size: 18px;
-}
-
-.tab1, .tab2, .tab3{
-    display: inline-block;
-    border: 2px solid grey;
-    margin: 5px;
-    background-color: white;
-}
-a{
-    text-decoration: none;
+.intro{
+    display: flex;
 }
 
 .description{
@@ -36,3 +38,17 @@ a{
     text-align: center;
     color: black;
 }
+
+.tab1, .tab2, .tab3{
+    display: inline-block;
+    align-items: center;
+    border: 2px solid grey;
+    margin: 5px;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+
