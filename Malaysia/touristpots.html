@@ -5,12 +5,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Tourist Spots </title>
     <link rel="stylesheet" href="countrydesign.css">
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            justify-content: center;
+        }
+
+        h1{
+            margin: 10px;
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 20px;
+            margin: 20px;
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        .box:hover{
+            cursor: pointer;
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container{
+            display: flex;
+        }
+
+        .box{
+            height: 400px;
+            margin: 50px;
+            box-shadow: 5px 5px 20px black;
+            overflow: hidden;
+        }
+
+        .box:hover .intro{
+            height: 220px;
+            bottom: 240px;
+            background: black;
+        }
+
+        .box:hover p{
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .box:hover img{
+            transform: scale(1.1) rotate(-3deg);
+        }
+
+        .descrip1{
+            height: 70px;
+            width: 350px;
+            padding: 6px;
+            box-sizing: border-box;
+            position: absolute;
+            background:grey;
+            color: white;
+            bottom: 240px;
+            transition: .5s;
+        }
+
+        .touristimages{
+            height: 500px;
+            width: 350px;
+            border-radius: 3px;
+        }
+
+
+    </style>
 
 </head>
 <body>
     <h1> Tourist Spots in Malaysia </h1>
 
-    
+    <div class="container">
+        <div class="box">
+            <img class="touristimages" src="petronatower.jpg">
 
+            <div class="descrip1">
+                <h2> Petronas Twin Tower </h2>
+                <p>
+                    built in 1998, are the tallest double structure in the world. 
+                    The 88-story towers were once the tallest building in 
+                    the world. Designed by architect Cesar Pelli in 
+                    collaboration with Malaysia's government, 
+                    the towers have a tube-in-tube high-strength concrete 
+                    structure for extra stability.
+                </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img class="touristimages" src="batutower.jpg" alt="batucave">
+            <div class="descrip1">
+                <h2> Batu Cave</h2>
+                <p>
+                    a 325-m tall mogote with a series of limestone caves in 
+                    Gombak, Selangor, Malaysia. It is located about 13 km 
+                    (8.1 mi) north of the capital city of Kuala Lumpur. 
+                    The cave complex contains many Hindu temples, the most 
+                    popular of which is a shrine dedicated to the deity 
+                    Murugan. It is the focal point of the Tamil Hindu festival 
+                    of Thaipusam in Malaysia. The complex also hosts a 43 m 
+                    (141 ft) high Murugan statue, one of the largest Murugan 
+                    statues in the world.
+                </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="paronama.jpg" alt="Paronama_langkawi" class="touristimages">
+            <div class="descrip1">
+                <h2> Paronama langkawi skycab </h2>
+                <p>
+                    a 15-minute cable car ride on Langkawi Island, Malaysia, that takes you 
+                    to the summit of Mount Machinchang, offering panoramic 
+                    views of the surrounding area, including the Andaman Sea 
+                    and the island's rainforest. The SkyCab also provides 
+                    access to the famous Langkawi Sky Bridge, a curved 
+                    suspension bridge. 
+                </p>   
+            </div>
+        </div>
+        
+    </div>
+
+    
 </body>
 </html>
