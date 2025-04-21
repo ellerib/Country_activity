@@ -6,79 +6,25 @@
     <title> Tourist Spots </title>
     <link rel="stylesheet" href="countrydesign.css">
     <style>
-        body{
-            display: flex;
-            align-items: center;
-            height: 100vh;
-            justify-content: center;
-        }
+       body {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        justify-content: center;
+    }
 
-        h1{
-            margin: 10px;
-            font-size: 40px;
-        }
+    h1 {
+        margin: 10px;
+        font-size: 40px;
+    }
 
-        p{
-            font-size: 20px;
-            margin: 20px;
-            visibility: hidden;
-            opacity: 0;
-        }
-
-        .box:hover{
-            cursor: pointer;
-        }
-
-        *{
-            margin: 0px;
-            padding: 0px;
-        }
-
-        .container{
-            display: flex;
-        }
-
-        .box{
-            height: 400px;
-            margin: 50px;
-            box-shadow: 5px 5px 20px black;
-            overflow: hidden;
-        }
-
-        .box:hover .intro{
-            height: 220px;
-            bottom: 240px;
-            background: black;
-        }
-
-        .box:hover p{
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .box:hover img{
-            transform: scale(1.1) rotate(-3deg);
-        }
-
-        .descrip1{
-            height: 70px;
-            width: 350px;
-            padding: 6px;
-            box-sizing: border-box;
-            position: absolute;
-            background:grey;
-            color: white;
-            bottom: 240px;
-            transition: .5s;
-        }
-
-        .touristimages{
-            height: 500px;
-            width: 350px;
-            border-radius: 3px;
-        }
-
-
+    p {
+        font-size: 20px;
+        margin: 20px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
     </style>
 
 </head>
@@ -135,6 +81,67 @@
             </div>
         </div>
         
+        <div class="box">
+            <img src="langkawi.jpg" alt="langkawiskybridge"> 
+            <div class="descrip1">
+                <h2> Langkawi Sky Bridge</h2>
+                <p>
+                    is a 125-metre curved pedestrian cable-stayed bridge in Malaysia, 
+                    completed in 2005. The bridge deck is 660 metres above sea
+                     level at the peak of Gunung Mat Cincang on Pulau 
+                     Langkawi, the main island of the Langkawi archipelago 
+                     in Kedah. 
+                </p>
+            </div>
+        </div> 
+
+        <div class="box">
+            <img src="bako.jpg" alt="bakonationalpark"> 
+            <div class="descrip1">
+                <h2> Bako National Park</h2>
+                <p> 
+                    one of the smallest national parks in Sarawak. However, 
+                    it features multiple biomes (including rainforest), 
+                    abundant wildlife, jungle streams 
+                    and waterfalls, secluded beaches, and trekking trails.
+                </p>
+            </div>
+        </div> 
+
+        <div class="box">
+            <img src="taman.jpg" alt=""> 
+            <div class="descrip1">
+                <h2> Taman Negara </h2>
+                <p>
+                    a vast national park in Malaysia on the Malay peninsula. 
+                    It encompasses a sprawling tropical rainforest that's 
+                    said to be 130 million years old. Kuala Tahan, the main 
+                    entry point, is a base for the nearby canopy walkway, 
+                    river trips and treks through the jungle to the top of 
+                    Mt. Tahan. The park is home to tigers, macaques and 
+                    birdlife, as well as the enormous flowers of the rafflesia
+                    plant.
+                </p>
+            </div>
+        </div> 
+
+        <div class="box">
+            <img src="" alt="penanghill"> 
+            <div class="descrip1">
+                <h2> Penang Hill </h2>
+                <p>
+                    a hill resort comprising a group 
+                    of peaks near the center of Penang Island, Malaysia. 
+                    It is located 9 km west of the centre of George Town. 
+                    Penang Hill is also known by the Malay name Bukit Bendera, 
+                    which actually refers to Flagstaff Hill, the most 
+                    developed peak.
+                </p>
+            </div>
+        </div> 
+
+
+
     </div>
 
     
