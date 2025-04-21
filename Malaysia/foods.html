@@ -2,16 +2,40 @@
 <html lang="en">
 <head>
     <style>
-        #container{
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #container {
+            width: 900px; 
+            margin-top: 50px;
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center;
+        }
+
+        .row1 {
+            margin: 10px; 
+            width: 250px; 
+            height: auto; 
+            box-shadow: -1px 0 10px black; 
+            text-align: center; 
+        }
+        img{
+            width: 250px;
+            height: 200px;
             display: flex;
         }
 
-        #container > div{
-            background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-        }
+
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,12 +43,10 @@
 </head>
 <body>
 
-    <h1> Foods in Malaysia </h1>
-
     <div id="container">
         <div class="row1">
+            <img src="images/nesilemak.jpg" alt="nasilemak">
             <h2> Nasi Lemak</h2>
-
             <p>
                 is a dish originating in Malay cuisine that consists of rice cooked in coconut milk and pandan leaf. 
                 It is commonly found in Malaysia, where it is considered 
@@ -33,6 +55,7 @@
         </div>
         
         <div class="row1"> 
+            <img src="images/satay.jpeg" alt="Satay">
             <h2> Satay</h2>
             <p>
                 a popular Malaysian dish featuring skewered and grilled meat, 
@@ -43,16 +66,51 @@
         </div>
 
         <div class="row1">
+            <img src="images/laksa.jpg" alt="laksa">
             <h2> Laksa </h2>
-
             <p>
                 s a spicy noodle soup that embodies the heart and soul of Malaysian cuisine, 
                 featuring a coconut milk-based broth enriched with chili 
                 and aromatic herbs. It's a dish that offers a harmonious 
                 blend of spicy, savory, and creamy elements.
             </p>
-
         </div>
+
+        <div class="row1">
+            <img src="images/assamlaksa.jpg" alt="assamlaksa">
+            <h2> Assam Laksa </h2>
+            <p> resembles something between a very thick noodle soup 
+                and a noodle dish with a lot of sauce. It is the Laksa 
+                sauce that makes all the difference and is one of the 
+                main elements that differentiates one Laksa from another. 
+                There are several types of Laksa, but Assam Laksa is one 
+                of my favourites. Typical of Penang – thick rice noodles
+                 with a sweet, sour fish sauce.</p>
+        </div>
+
+        <div class="row1">
+            <img src="images/currymee.jpg" alt="currymee">
+            <h2> Curry Mee </h2>
+            <p> A bowl of noodle soup with everything it is entitled to 
+                (ex. bean sprout, coagulated pork blood, shrimp, fish, 
+                chicken, etc.) with a taste that only the cultural mix 
+                can bring: 
+                coconut milk, sambal, mint, curry spices.</p>
+        </div>
+
+        <div class="row1">
+            <img src="images/roticanai.jpg" alt="roticanai">
+            <h2> Roti Canai </h2>
+            <p> A flatbread that comes with dahl (lentil) and curry. Of 
+                Indian influence, 
+                Roti Canai is a very popular food in the mornings 
+                throughout Malaysia. The best experience is to eat Roti
+                Canai in the street stalls while watching the vendors roll
+                 out the dough.</p>
+        </div>
+
+
+
     </div>
     
 </body>
