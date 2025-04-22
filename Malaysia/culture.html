@@ -7,6 +7,17 @@
             height: 300px;
             width: 300px;
         }
+        
+        .contain{
+            flex: 70%;
+            padding: 20px;
+            background-image: linear-gradient(white,blue);
+        }
+        body{
+            background-image: url(images/background.jpg);
+        }
+
+
     </style>
 
     <meta charset="UTF-8">
@@ -15,24 +26,80 @@
 </head>
 <body>
    
-    <div>
-        <h1> Malaysian Cultures </h1>
-
-        <img src="images/culture.jpg" alt="malasyian_culture">
-
-        <p>
-            Malaysia's is a vibrant mix of Malay, Chinese, 
-            and Indian influences, reflecting the country's 
-            diverse population. The majority of Malaysians 
-            identify as Malay, with many practicing Islam 
-            and Malay traditions, while also speaking Bahasa 
-            Malaysia, a language rooted in Austronesian 
-            origins. 
-        </p>
-
-
+    <div class="contain">
+        <div class="culture">
+            <h1> Malaysian Cultures </h1>
+    
+            <img src="images/culture.jpg" alt="malasyian_culture">
+    
+            <p>
+                Malaysia's is a vibrant mix of Malay, Chinese, 
+                and Indian influences, reflecting the country's 
+                diverse population. The majority of Malaysians 
+                identify as Malay, with many practicing Islam 
+                and Malay traditions, while also speaking Bahasa 
+                Malaysia, a language rooted in Austronesian 
+                origins. 
+            </p>
+        </div>
+    
+        <div class="festival">
+            <h2> Malay Cultures </h2>
+    
+            <h3> Islam </h3>
+            <p>
+                Dominant religion among the Malay population, 
+                significantly influencing customs and traditions. 
+            </p>
+    
+            <h2> Bahasa Malaysia </h2>
+    
+            <p>
+                National language, reflecting rich linguistic heritage
+                of the region.
+            </p>
+    
+            <h2> Traditional Practices </h2>
+    
+            <p>
+                Dances, music and art forms like batik, deeply rooted in Malay culture.
+            </p>
+    
+            <h2> Festivals </h2>
+            <p>
+                Celebrations like Hari Raya Aidilfitri and 
+                Hari Raya Aidiladha, major Islamic holidays
+                are celebrated throughout the country. 
+            </p>
+    
+        </div>
     </div>
 
+    <div class="tabzone">
+        <div class="tab1">
+            <a href="touristpots.html">
+                <img src="images/tourist.jpg" alt="mountain" height="200" width="200">
+            <h2 class="description"> Tourist Spots </h2>
+            </a>
+                
+        </div>
+    
+        <div class="tab2">
+            <a href="foods.html">
+                <img src="images/malaysian-food.jpeg" alt="malaysian-food" height="200" width="200">
+                <h2 class="description"> Malaysian cuisine</h2>
+            </a>
+                
+        </div>
+    
+        <div class="tab3">
+            <a href="">
+                <img src="images/malaysiaculture.jpg" alt="malaysian-food" height="200" width="200">
+                <h2 class="description"> Culture </h2>
+            </a>
+        </div>
+        
+    </div>
 
 </body>
 </html>
