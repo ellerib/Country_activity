@@ -39,7 +39,42 @@ p{
     color: black;
 }
 
-.tabzone{
+.sidenav{
+
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.sidenav a{
+    color: white;
+    font-size: 20px;
+    padding: 11px;
+    text-decoration: none;
+    display: block;
+}
+
+.sidenav a:hover{
+    background-color: grey;
+
+}
+
+.content{
+    margin-left: 200px;
+    padding-left: 20px;
+}
+
+.sidetitle{
+    text-align: center;
+    margin-top: 500px;
+}
+
+/* .tabzone{
     display: flex;
     justify-content: space-evenly;
 }
@@ -49,11 +84,11 @@ p{
     border: 2px solid grey;
     margin: 5px;
     background-color: white;
-}
+} */
 
-a{
+/* a{
     text-decoration: none;
-}
+} */
 
 /* tourist spots designs
 

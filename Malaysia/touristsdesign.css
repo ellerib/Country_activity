@@ -8,6 +8,35 @@ body {
     background-image: linear-gradient(red, white, blue, yellow);
 }
 
+.sidenav{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.sidenav a{
+    color: white;
+    font-size: 20px;
+    padding: 11px;
+    text-decoration: none;
+    display: block;
+}
+
+.sidenav a:hover{
+    background-color: grey;
+
+}
+
+.content{
+    margin-left: 200px;
+    padding-left: 20px;
+}
+
 h1 {
     margin: 10px;
     font-size: 40px;
